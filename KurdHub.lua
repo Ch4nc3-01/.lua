@@ -1,4 +1,5 @@
---RELOAD GUI
+--RELOAD GUi
+wait("0.2")
 if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "KurdHub Gayra",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
